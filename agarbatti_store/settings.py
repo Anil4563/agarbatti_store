@@ -150,6 +150,7 @@ LOGIN_URL = 'login'
 
 # Media files
 MEDIA_URL = '/media/'
+MEDIA_ROOT=BASE_DIR/'media'
 
 # eSewa Test Configuration (For Demo/Project)
 ESEWA_MERCHANT_CODE = 'EPAYTEST'  # Test merchant code
