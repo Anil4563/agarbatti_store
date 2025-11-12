@@ -33,6 +33,7 @@ urlpatterns = [
     path('cart/', include('cart.urls')),
     path('orders/', include('order.urls')),
 ] 
+
 # ✅ Serve static files in production when DEBUG=False
 if not settings.DEBUG:
     urlpatterns += [
