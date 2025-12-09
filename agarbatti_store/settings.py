@@ -156,17 +156,9 @@ MEDIA_ROOT= os.path.join(BASE_DIR /'media')
 # WhiteNoise configuration for static files
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-# eSewa Test Configuration (For Demo/Project)
-ESEWA_MERCHANT_CODE = 'EPAYTEST'  # Test merchant code
-ESEWA_MERCHANT_SECRET = ''  # Not needed for testing
 
-# Test Environment URLs
-ESEWA_FORM_URL = 'https://rc-epay.esewa.com.np/api/epay/main/v2/form'
-ESEWA_VERIFY_URL = 'https://rc-epay.esewa.com.np/api/epay/transaction/status/'
 
-# Success/Failure URLs for demo
-ESEWA_SUCCESS_URL = 'http://127.0.0.1:8000/orders/esewa-success/'
-ESEWA_FAILURE_URL = 'http://127.0.0.1:8000/orders/esewa-failed/'
+
 
 JAZZMIN_SETTINGS = {
     # Site Information
